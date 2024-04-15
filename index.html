@@ -76,6 +76,116 @@
 
 
         }
+
+        @keyframes model1toPC2 {
+            0% {
+                transform: translateY(0) translateX(0);
+            }
+
+            11.11% {
+                transform: translateY(-90%) translateX(0%);
+            }
+
+            22.22% {
+                transform: translateY(-90%) translateX(1040%);
+            }
+
+            33.33% {
+                transform: translateY(0%) translateX(1040%);
+            }
+
+            44.44% {
+                transform: translateY(-90%) translateX(1040%);
+            }
+
+
+            55.55% {
+                transform: translateY(-90%) translateX(0%);
+            }
+
+
+            66.66% {
+                transform: translateY(0) translateX(0);
+            }
+
+            77.77% {
+                transform: translateY(-90%) translateX(0%);
+            }
+
+            88.88% {
+                transform: translateY(-90%) translateX(1040%);
+            }
+
+            100% {
+                transform: translateY(0%) translateX(1040%);
+            }
+
+
+
+
+
+
+        }
+
+        @keyframes model2toPC1 {
+            0% {
+                transform: translateY(0) translateX(0);
+            }
+
+            11.11% {
+                transform: translateY(-90%) translateX(0%);
+            }
+
+            22.22% {
+                transform: translateY(-90%) translateX(-1040%);
+            }
+
+            33.33% {
+                transform: translateY(0%) translateX(-1040%);
+            }
+
+            44.44% {
+                transform: translateY(-90%) translateX(-1040%);
+            }
+
+
+            55.55% {
+                transform: translateY(-90%) translateX(0%);
+            }
+
+
+            66.66% {
+                transform: translateY(0) translateX(0);
+            }
+
+            77.77% {
+                transform: translateY(-90%) translateX(0%);
+            }
+
+            88.88% {
+                transform: translateY(-90%) translateX(-1040%);
+            }
+
+            100% {
+                transform: translateY(0%) translateX(-1040%);
+            }
+
+
+
+
+
+
+        }
+
+
+
+        #model1toPC2 {
+            animation: model1toPC2 30s ease-in-out 1 forwards;
+        }
+
+        #model2toPC1 {
+            animation: model2toPC1 30s ease-in-out 1 forwards;
+        }
     </style>
 
     <!-- Include the model-viewer JavaScript module -->
@@ -352,6 +462,8 @@
 
 
 
+
+
                 <div class="model-viewer-container"
                     style="background-color: #79658d; border-radius: 0% ;width: 49%;margin-right: 1%;">
 
@@ -544,8 +656,8 @@
             </div>
 
 
-             <!-- Modal -->
-             <div class="modal fade " id="PC2CMD" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <!-- Modal -->
+            <div class="modal fade " id="PC2CMD" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-fullscreen">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -598,48 +710,52 @@
                 </div>
             </div>
 
-            <div class="modal fade" id="FastEthernet" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="FastEthernet" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog modal-xl">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: #000000;">Cross Copper Wire
-                      </h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-                    <div class="modal-body">
-          
-                      <img src="cross over copper cable 2.jpg" alt="cross over copper cable" width="50%">
-                      <img src="cross over copper cable.jpg" alt="cross over copper cable" width="45%">
-          
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Okay</button>
-                      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: #000000;">Cross Copper
+                                Wire
+                            </h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
 
-              <div class="modal fade" id="CrossWanDteDce" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: #000000;">Cross Copper Wire
-                      </h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            <img src="cross over copper cable 2.jpg" alt="cross over copper cable" width="50%">
+                            <img src="cross over copper cable.jpg" alt="cross over copper cable" width="45%">
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Okay</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
                     </div>
-                    <div class="modal-body">
-          
-                      <img src="cross_wan_media_dte_dce.jpg" alt="cross wan media dte dce" >
-                      
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Okay</button>
-                      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                    </div>
-                  </div>
                 </div>
-              </div>
+            </div>
+
+            <div class="modal fade" id="CrossWanDteDce" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: #000000;">Cross Copper
+                                Wire
+                            </h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+
+                            <img src="cross_wan_media_dte_dce.jpg" alt="cross wan media dte dce">
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Okay</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Modal -->
             <div class="modal fade" id="Router2Antennae" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -813,6 +929,36 @@
                 </div>
             </div>
 
+            <div class="model-viewer-container">
+
+                <model-viewer src="packet send.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+                    tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" id="model1toPC2"
+                    style="width: 5%;z-index: 3;position: absolute;margin-left: 18%;margin-top: -22%;display: none;">
+                    <button class="Hotspot packet-button btn btn-sm" slot="hotspot-2"
+                        data-position="-0.003848217995850542m -0.14425149508449575m 0.15079345864210944m"
+                        data-normal="0m -2.220446049250313e-16m 1m" data-visibility-attribute="visible"
+                        data-bs-toggle="modal" data-bs-target="#PC1toPC2Packet">
+                        <div class="HotspotAnnotation">Packet</div>
+                    </button>
+                </model-viewer>
+
+            </div>
+
+            <div class="model-viewer-container">
+
+                <model-viewer src="packet send.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+                    tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" id="model2toPC1"
+                    style="width: 5%;z-index: 3;position: absolute;margin-left: 70%;margin-top: -22%;display: none;">
+                    <button class="Hotspot packet-button btn btn-sm" slot="hotspot-2"
+                        data-position="-0.003848217995850542m -0.14425149508449575m 0.15079345864210944m"
+                        data-normal="0m -2.220446049250313e-16m 1m" data-visibility-attribute="visible"
+                        data-bs-toggle="modal" data-bs-target="#PC2toPC1Packet">
+                        <div class="HotspotAnnotation">Packet</div>
+                    </button>
+                </model-viewer>
+
+            </div>
+
         </div>
 
         <footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
@@ -897,7 +1043,9 @@
             var currentState1 = 0;
             var currentState2 = 0;
 
-            
+            var currentState3 = 0;
+            var currentState4 = 0;
+
             function executeCommand1() {
 
 
@@ -960,6 +1108,7 @@
                             return;
                         }
                         alert("Router 1 is now know about its neighbor and network but Router 2 doesn't know about its neighbor and network so to configure Router 2 click on button '2' of router model.");
+                        currentState3 = 1;
                         break;
                 }
 
@@ -1046,7 +1195,7 @@
                         alert("Now both Router 1 and Router 2 know about their networks and neighbor. So, let's send packet from one network to other network! ");
                         alert("To know about IP Address click on PC-1 / PC-2 / Router's button number '2'.");
                         alert("Click on PC1 or PC2 then click on button 'Open Command Prompt'\n\nEnter 'ping IP_Address' eg. ping 192.123.2.1");
-
+                        currentState4 = 1;
                         break;
                 }
 
@@ -1069,26 +1218,31 @@
 
 
 
-            function executeCommand3(){
+            function executeCommand3() {
                 //PC-1
                 var input3 = document.getElementById('inputCmd3').value.trim();
                 var outputDiv3 = document.getElementById('output3');
-                
 
-                if (input3 === '') {
-                    outputDiv3.innerHTML += '<p>>PC 1 #Please enter a command.</p>';
-                    return;
-                }else if(input3==='ping 192.123.3.2'){
-                    //start here animation of PC-1 to PC2
-                    outputDiv3.innerHTML += '<p>>PC 1 #Pinging 192.123.3.2 with 32 bytes of data...</p>';
-                    alert("Close this window to see how the packet flow from one network to other networking using BGP.")
-                    PC1TOPC2();
-                    return;
-                    
-                }else{
-                     //start here animation of PC-1 to PC2
-                     outputDiv3.innerHTML += '<p>>PC 1 #Please enter valid command. Enter "ping 192.123.3.2" to ping PC-2.</p>';
 
+                if (currentState4 === 1 && currentState3 === 1) {
+                    if (input3 === '') {
+                        outputDiv3.innerHTML += '<p>>PC 1 #Please enter a command.</p>';
+                        return;
+                    } else if (input3 === 'ping 192.123.3.2') {
+                        //start here animation of PC-1 to PC2
+                        outputDiv3.innerHTML += '<p>>PC 1 #Pinging 192.123.3.2 with 32 bytes of data...</p>';
+                        alert("Close this window to see how the packet flow from one network to other networking using BGP.")
+                        PC1TOPC2();
+                        return;
+
+                    } else {
+                        //start here animation of PC-1 to PC2
+                        outputDiv3.innerHTML += '<p>>PC 1 #Please enter valid command. Enter "ping 192.123.3.2" to ping PC-2.</p>';
+
+                        return;
+                    }
+                } else {
+                    outputDiv3.innerHTML += '<p>>PC 1 #Please configure Router 1 and Router 2 by clicking on button number "2" of routers then only you can send ping from one network to other network.</p>';
                     return;
                 }
 
@@ -1097,7 +1251,7 @@
                 // For demonstration, let's just echo the command
                 outputDiv3.innerHTML += '<p>>PC 1 #' + input3 + '</p>';
 
-                
+
 
                 // Clear input field after command execution
                 document.getElementById('inputCmd3').value = '';
@@ -1109,26 +1263,31 @@
                 }, 0);
             }
 
-            function executeCommand4(){
+            function executeCommand4() {
                 //PC-2
                 var input4 = document.getElementById('inputCmd4').value.trim();
                 var outputDiv4 = document.getElementById('output4');
-                
 
-                if (input4 === '') {
-                    outputDiv4.innerHTML += '<p>>PC 2 #Please enter a command.</p>';
-                    return;
-                }else if(input4==='ping 192.123.1.2'){
-                    //start here animation of PC-1 to PC2
-                    outputDiv4.innerHTML += '<p>>PC 2 #Pinging 192.124.4.2 with 32 bytes of data...</p>';
-                    alert("Close this window to see how the packet flow from one network to other networking using BGP.")
-                    PC2TOPC1();
-                    return;
-                    
-                }else{
-                     //start here animation of PC-1 to PC2
-                     outputDiv4.innerHTML += '<p>>PC 2 #Please enter valid command. Enter "ping 192.123.1.2" to ping PC-2.</p>';
 
+                if (currentState4 === 1 && currentState3 === 1) {
+                    if (input4 === '') {
+                        outputDiv4.innerHTML += '<p>>PC 2 #Please enter a command.</p>';
+                        return;
+                    } else if (input4 === 'ping 192.123.1.2') {
+                        //start here animation of PC-1 to PC2
+                        outputDiv4.innerHTML += '<p>>PC 2 #Pinging 192.124.4.2 with 32 bytes of data...</p>';
+                        alert("Close this window to see how the packet flow from one network to other networking using BGP.")
+                        PC2TOPC1();
+                        return;
+
+                    } else {
+                        //start here animation of PC-1 to PC2
+                        outputDiv4.innerHTML += '<p>>PC 2 #Please enter valid command. Enter "ping 192.123.1.2" to ping PC-2.</p>';
+
+                        return;
+                    }
+                } else {
+                    outputDiv4.innerHTML += '<p>>PC 1 #Please configure Router 1 and Router 2 by clicking on button number "2" of routers then only you can send ping from one network to other network.</p>';
                     return;
                 }
 
@@ -1137,7 +1296,7 @@
                 // For demonstration, let's just echo the command
                 outputDiv4.innerHTML += '<p>>PC 2 #' + input4 + '</p>';
 
-                
+
 
                 // Clear input field after command execution
                 document.getElementById('inputCmd4').value = '';
@@ -1147,6 +1306,35 @@
                     var outputDiv4 = document.getElementById('output4');
                     outputDiv4.scrollTop = outputDiv4.scrollHeight;
                 }, 0);
+            }
+
+
+            function PC2TOPC1() {
+                var modelViewer = document.getElementById('model2toPC1');
+                modelViewer.style.animation = 'model2toPC1 30s linear 1';
+                modelViewer.style.display = 'block';
+
+                // When the animation ends, hide the model-viewer element
+                modelViewer.addEventListener('animationend', function () {
+                    alert('This is how a BGP Protocol works when you send ping from PC-2 to PC-1');
+
+                    modelViewer.style.display = 'none';
+                });
+
+            }
+
+            function PC1TOPC2() {
+                var modelViewer = document.getElementById('model1toPC2');
+                modelViewer.style.animation = 'model1toPC2 30s linear 1';
+                modelViewer.style.display = 'block';
+
+                // When the animation ends, hide the model-viewer element
+                modelViewer.addEventListener('animationend', function () {
+                    alert('This is how a BGP Protocol works when you send ping from PC-1 to PC-2');
+
+                    modelViewer.style.display = 'none';
+                });
+
             }
 
             window.onload = function () {
